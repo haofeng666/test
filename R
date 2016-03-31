@@ -1,0 +1,2 @@
+library(ggplot2)
+with(mtcars,qplot(wt,mpg,goem=c("point","line"))
