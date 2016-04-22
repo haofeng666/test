@@ -1,2 +1,2 @@
 library(ggplot2)
-ggplot(mtcars,aes(wt,mpg))+goem_line
+ggplot(mtcars,aes(wt,mpg))+goem_line+geom_facet()
